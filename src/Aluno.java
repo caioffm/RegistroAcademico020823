@@ -6,7 +6,7 @@ public class Aluno {
     private double notaProva2;
     private double notaTrabalho;
 
-    // Construtor da classe
+    // Classe construtora
     public Aluno(String registroAcademico, String nome, double notaProva1, double notaProva2, double notaTrabalho) {
         this.registroAcademico = registroAcademico;
         this.nome = nome;
@@ -39,4 +39,3 @@ public class Aluno {
         System.out.println("Situação: " + this.situacao());
     }
 }
-
