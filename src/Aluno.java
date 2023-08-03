@@ -1,13 +1,13 @@
 public class Aluno {
     // Definindo variáveis de instância
-    private String registroAcademico;
+    private double registroAcademico;
     private String nome;
     private double notaProva1;
     private double notaProva2;
     private double notaTrabalho;
 
     // Classe construtora
-    public Aluno(String registroAcademico, String nome, double notaProva1, double notaProva2, double notaTrabalho) {
+    public Aluno(String nome,double registroAcademico,  double notaProva1, double notaProva2, double notaTrabalho) {
         this.registroAcademico = registroAcademico;
         this.nome = nome;
         this.notaProva1 = notaProva1;
